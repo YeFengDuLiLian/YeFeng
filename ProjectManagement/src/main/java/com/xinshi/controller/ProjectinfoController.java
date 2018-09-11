@@ -16,6 +16,7 @@ public class ProjectinfoController {
     private ProjectinfoService projectinfoService;
     @RequestMapping(value = "/findAll")
     public String findAll(Integer status, Integer pageNo, Model model){
+        //sssss
 
         if (pageNo == null || pageNo==0) {
             pageNo=1;
